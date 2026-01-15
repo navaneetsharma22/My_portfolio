@@ -25,8 +25,8 @@
                     <div class="nav-text">
                         <div><a href="#project">Project</a></div>
                         <div><a href="#skills">Skills</a></div>
-                        <div><a href="#contactme">Contact Me</a></div>
-                        <div><a href="#contactme">Notification</a></div>
+                        <div><a href="#contact">Contact Me</a></div>
+                        <!-- <div><a href="#contactme">Notification</a></div> -->
                     </div>
                 </div>
 
@@ -44,9 +44,15 @@
                             journey as a software developer.
                         </div>
                         <!-- <div class="btn-pink">Hire me</div> -->
-                         <a href="https://www.linkedin.com/in/navaneet-sharma-750b50357/" target="_blank">
-                            <button class="btn-pink">Hire me</button>
+                        <!-- <a href="https://www.linkedin.com/in/navaneet-sharma-750b50357/" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="btn-pink">Hire me</div>
+                        </a> -->
+                        <a href="https://www.linkedin.com/in/navaneet-sharma-750b50357/" target="_blank"
+                            class="btn-pink hire-link">
+                            Hire me
                         </a>
+
 
 
 
@@ -69,7 +75,7 @@
                             <img src="plus.png" alt="">
                         </div>
                         <div class="user-image">
-                            <img src="df.jpg" class="nav">
+                            <img src="Navaneet_image.jpeg" class="nav">
                         </div>
                     </div>
 
@@ -383,62 +389,37 @@
         </div> -->
 
         <div class="contactus-form-container" id="contact">
-    <div class="container">
-        <h1 class="contact-us-heading">Contact Me</h1>
-        <h3 class="contact-subheading">
-            Questions, thoughts, or just want to say hello?
-        </h3>
+            <div class="container">
+                <h1 class="contact-us-heading">Contact Me</h1>
+                <h3 class="contact-subheading">
+                    Questions, thoughts, or just want to say hello?
+                </h3>
 
-        <div class="contactus-form-container">
-            <form
-                action="mailto:navaneetsharma22@gmail.com"
-                method="POST"
-                enctype="text/plain"
-            >
-                <div class="form-field-container">
-                    <input
-                        class="formfield"
-                        type="text"
-                        name="Name"
-                        placeholder="Enter your name"
-                        required
-                    />
+                <div class="contactus-form-container">
+                    <form action="mailto:navaneetsharma22@gmail.com" method="POST" enctype="text/plain">
+                        <div class="form-field-container">
+                            <input class="formfield" type="text" name="Name" placeholder="Enter your name" required />
 
-                    <input
-                        class="formfield"
-                        type="email"
-                        name="Email"
-                        placeholder="Enter your email address"
-                        required
-                    />
+                            <input class="formfield" type="email" name="Email" placeholder="Enter your email address"
+                                required />
 
-                    <input
-                        class="formfield"
-                        type="text"
-                        name="Subject"
-                        placeholder="Enter your subject"
-                        required
-                    />
+                            <input class="formfield" type="text" name="Subject" placeholder="Enter your subject"
+                                required />
 
-                    <textarea
-                        class="formfield formfield-textarea"
-                        name="Message"
-                        rows="10"
-                        placeholder="Enter your message"
-                        required
-                    ></textarea>
+                            <textarea class="formfield formfield-textarea" name="Message" rows="10"
+                                placeholder="Enter your message" required></textarea>
+                        </div>
+
+                        <div>
+                            <button type="submit" class="btn-pink" id="submit-btn">
+                                Send Message
+                                <i class="fa-solid fa-paper-plane submit-icon"></i>
+                            </button>
+                        </div>
+                    </form>
                 </div>
-
-                <div>
-                    <button type="submit" class="btn-pink" id="submit-btn">
-                        Send Message
-                        <i class="fa-solid fa-paper-plane submit-icon"></i>
-                    </button>
-                </div>
-            </form>
+            </div>
         </div>
-    </div>
-</div>
 
 
         <footer>
@@ -494,7 +475,11 @@
 
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script>
         var typeData = new Typed(".role", {
@@ -511,7 +496,6 @@
             backDelay: 1000,
         });
     </script>
-
 </body>
 
 </html>
